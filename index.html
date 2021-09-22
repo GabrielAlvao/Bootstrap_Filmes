@@ -7,7 +7,15 @@
     <title>Filmezin</title>
     <!-- CSS do bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <style>
+      .tm-social{
+        width: 50px;
+        height: 50px;
+      }
+      .img-card{       
+        height: 300px;
+      }
+    </style>
 </head>
 <body>
     <!-- Navbar com links e botões -->
@@ -113,7 +121,7 @@
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
                         <a href="#">
-                            <img class="card-img-top" src="https://br.web.img3.acsta.net/pictures/17/03/27/09/49/121118.jpg" alt="Imagem de capa do card">
+                            <img class="card-img-top img-card" src="https://br.web.img3.acsta.net/pictures/17/03/27/09/49/121118.jpg" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                             <h5 class="card-title">Velozes e Furiosos 8</h5>
@@ -123,7 +131,7 @@
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
                         <a href="#">
-                            <img class="card-img-top" src="https://br.web.img2.acsta.net/c_310_420/pictures/20/01/28/22/12/4169305.jpg" alt="Imagem de capa do card">
+                            <img class="card-img-top img-card" src="https://br.web.img2.acsta.net/c_310_420/pictures/20/01/28/22/12/4169305.jpg" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                             <h5 class="card-title">Jumanji: Próxima Fase</h5>
@@ -133,7 +141,7 @@
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
                         <a href="#">
-                            <img class="card-img-top" src="https://br.web.img3.acsta.net/pictures/21/04/14/19/06/3385237.jpg" alt="Imagem de capa do card" >
+                            <img class="card-img-top img-card" src="https://br.web.img3.acsta.net/pictures/21/04/14/19/06/3385237.jpg" alt="Imagem de capa do card" >
                         </a>
                         <div class="card-body">
                             <h5 class="card-title">Velozes e Furiosos 9</h5>
@@ -147,7 +155,8 @@
         <div class="container">
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Reporte problemas do site:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                <textarea class="form-control" id="textarea"></textarea>
+                <div id="txttexto"></div>
             </div>
         </div>
         <div class="container">
@@ -158,12 +167,25 @@
       <!-- footer -->
       <hr>
       <footer class="text-center">
+        <div class="container">
+          <a href="https://www.facebook.com/profile.php?id=100010502893111" target="_blank">
+            <img class="tm-social mr-5"src="assets/facebook.png" alt="Logo facebook">
+          </a>
+            <a href="https://www.instagram.com/alves.g__/" target="_blank">
+            <img class="tm-social mr-5" src="assets/instagram.png" alt="Logo instagram">
+          </a>
+          <a href="https://www.linkedin.com/in/gabriel-alves-7362061bb/" target="_blank">
+            <img class="tm-social mr-5" src="assets/linkedin.png" alt="Logo linkedin">
+          </a>
+        </div>
+        <hr>
           <p>
               Todos os direitor reservados: Gabriel Alves &copy;
           </p>
       </footer>
       <!-- /footer -->
 
+  
     <!-- Scripts do js para uso do bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
